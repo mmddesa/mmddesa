@@ -1,8 +1,12 @@
 Procedimientos de desarrollo de software
 ========================================
-1.- Generar la aplicación
-
-2.- Copiar de _Comun el fichero MMDVer.h
+1.- Generar la aplicación en VS 2010 y copiarla a VS 2019
+	Generar la aplicación en VS2010
+ 	Copiar del directorio cd VS2010 (C:\Users\Mariano\Documents\Visual Studio 2010\Projects) al directorio de VS2019 (C:\Users\Mariano\source\repos)
+ 	Abrir la aplicación con VS 2019 (Abrir un proyecto o una solución)
+  	En "Redestinar proyectos", elegir "Sin actualización" y "Sin actualización"
+   
+2.- Copiar de _Comun el fichero MMDVer.h al directorio de fuentes
 
 3.- Entrar en Proyecto->Propiedades
 	Todas las configuraciones
