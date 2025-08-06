@@ -56,6 +56,7 @@ Procedimientos de desarrollo de software
 	Param.h
 
 13.- Incluir en Form1.h
+
 	#include "Param.h"
 
 14.- Añadir al principio de la clase Form1:
@@ -64,7 +65,7 @@ Procedimientos de desarrollo de software
 		String^ sDirIni;			//Directorio del .ini
 		CParam^	cParam;				//Parámetros
 
-15.- Añadir en el código del constructor de Form1:
+15.- Añadir en el código del constructor de Form1 (sustituyendo <Nombre de aplicación> por el nombre de la aplicación):
 
 			cParam = gcnew CParam;
 
@@ -86,6 +87,7 @@ Procedimientos de desarrollo de software
 			sDirIni += "\\<Nombre de aplicación>.ini";
 
 			cParam->LeeParam(sDirIni);
+
 
 16.- Añadir en el código del destructor de Form1:
 
