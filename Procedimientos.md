@@ -33,13 +33,21 @@ Procedimientos de desarrollo de software
 		#include "MMDVer.h"
 	
 	- apartado Version:
+    
 		FILEVERSION MMD_VERT
+
 		PRODUCTVERSION MMD_VERT
+
 		"CompanyName", "MMDDesa - MMD"
+
 		"FileDescription", <Descripción de la aplicación>
+
 		"FileVersion", MMD_VERT_TX
+
 		"LegalCopyright", "Copyright (C) 2025 - Mariano J. Muñoz Díaz"
+
 		"ProductName", <Nombre del producto>
+
 		"ProductVersion", MMD_VERT_TX
 
 8.- Compilar; poner en MMDVer.h la versión y subversión correspondiente (1.1)
